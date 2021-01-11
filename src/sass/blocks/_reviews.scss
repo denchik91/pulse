@@ -1,0 +1,39 @@
+.reviews {
+    padding-bottom: 70px;
+    .title {
+        margin-bottom: 70px;
+    }
+    hr {
+        max-width: 940px;
+        height: 1px;
+        background-color: #f6f6f6;
+        border: none;
+        margin: 50px 0;
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__img {
+        margin-right: 60px;
+        width: 169px;
+        height: 169px;
+    }
+    &__client {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__client-exp {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__text {
+        max-width: 665px;
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
