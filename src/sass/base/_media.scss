@@ -275,6 +275,19 @@
             max-width: 300px;
         }
     }
+    .footer {
+        min-height: 500px;
+        &__info {
+            width: 360px;
+
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -375,5 +388,36 @@
             height: auto;
         }
     }
+    .footer {
+        &__info {
+            width: 100%;
+            top: 58%;
+        }
+    }
 
+}
+
+@media (max-width: 424px) {
+    .footer {
+        &__info {
+            height: 250px;
+            top: 61%;
+        }
+        &__addr {
+            font-size: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__soccial {
+            width: 180px;
+        }
+        &__soccial-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 19px;
+            }
+        }
+    }
 }
