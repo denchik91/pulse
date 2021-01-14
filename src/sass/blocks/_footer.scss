@@ -28,7 +28,7 @@
         text-align: center; 
         margin-top: 36px;  
         &:hover {
-            color: #ffffff;
+            color: silver;
         }       
     }
     &__soccial {
@@ -45,6 +45,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 0.5s all;
+        &:hover {
+            border-color: silver;
+        }
+        &:active {
+            border: none;
+        }
         img {
             height: 26px;       
         }

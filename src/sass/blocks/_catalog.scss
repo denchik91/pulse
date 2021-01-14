@@ -84,6 +84,9 @@
         }
         a {
             color: $main_color;
+            &:hover {
+                color: #E36767;
+            }
         }
         hr {
             width: 260px;

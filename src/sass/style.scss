@@ -7,6 +7,9 @@
     max-width: 950px;
     margin: 0 auto;   
 }
+a {
+    transition: 0.5s all;
+}
 
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -19,5 +22,6 @@
 @import 'blocks/catalog';
 @import 'blocks/reviews';
 @import 'blocks/footer';
+@import 'blocks/modal';
 
 @import 'base/media';
