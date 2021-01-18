@@ -420,9 +420,11 @@
                 height: 40px;
                 font-size: 13px;
             }
-        }
+        }      
     }
-
+    .modal_mini {
+        min-height: 140px;
+    }
 }
 
 @media (max-width: 424px) {

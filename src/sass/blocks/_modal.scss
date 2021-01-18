@@ -40,12 +40,8 @@
         text-align: center;
         margin-top: 11px;
     }
-    &_mini {
-        min-height: 140px;
-    }
     .feed-form {
-        margin: 25px auto 0;
-    
+        margin: 25px auto 0;   
     }
     .error {
         border: 1px solid red;       
@@ -56,6 +52,9 @@
         margin-bottom: 15px;
         font-size: 14px;
     }
+}
+.modal_mini {
+    min-height: 140px;
 }
 
 #consultation, #order, #thx {
